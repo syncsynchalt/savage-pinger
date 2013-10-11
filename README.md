@@ -19,6 +19,6 @@ Test with the following command:
 
 Run the following in your ExtJS application:
 
-    Ext.draw.engine.ImageExporter.defaultUrl = '//svg.yoursite.com/path/to/svg.php';
+    Ext.draw.engine.ImageExporter.defaultUrl = '//YOURHOSTNAME/path/to/svg.php';
 
 Enjoy!
