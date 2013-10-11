@@ -3,11 +3,11 @@
 $height = intval($_REQUEST['height']);
 $width = intval($_REQUEST['width']);
 $type = $_REQUEST['type'];
-$svg = $_REQUEST['svg'];
+$svgdata = $_REQUEST['svg'];
 
 $svgfile = tempnam('/tmp', '_SVG');
 $handle = fopen($svgfile, "w");
-fwrite($handle, $svg);
+fwrite($handle, $svgdata);
 fclose($handle);
 
 $pngfile = tempnam('/tmp', '_PNG');
